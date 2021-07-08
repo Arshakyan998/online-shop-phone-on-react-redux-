@@ -1,7 +1,12 @@
 import { API } from "./api"
 
-export const getFetchItems=(cat)=>(dispatch)=>{
+const loading=(val)=>({
+        type:"LOADING",
+        payload:val
+})
 
+export const getFetchItems=(cat)=>(dispatch)=>{
+dispatch(loading(false))
 
 
 const api=`http://localhost:3004/items?${cat!==null?`categoryId=${cat}`:''}`

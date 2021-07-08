@@ -52,6 +52,13 @@ switch (action.type) {
             search:action.payload
         }
     }
+    case"LOADING":{
+
+        return{
+            ...state,
+            isLoaded:action.payload
+        }
+    }
 
     default:
         return state;
