@@ -1,0 +1,47 @@
+.main__cart{
+        width: 100%;
+        >div{
+                display: flex;
+                width: 90%;
+                margin: auto;
+                justify-content: space-between;
+                :nth-child(2){
+                        font-size: 17px;
+                        color: gray;
+                        cursor: pointer;
+                }
+                :nth-child(2):hover{
+                        color: orange;
+
+                }
+        }
+        
+.cart{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 250px;
+        width: 70%;
+        margin: auto;
+        >img{
+                width: 200px;
+                height: 200px;
+        }
+        button{
+                padding:15px ;
+                box-sizing: border-box;
+        }
+        span{
+                font-size: 32px;
+        }
+       
+h1{
+        margin: 7px;
+}
+h2{
+        margin: 7px;
+}
+       
+        
+}
+}

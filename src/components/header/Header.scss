@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100;300&family=Libre+Baskerville&display=swap');.main{
+        display: flex;
+        flex-direction: column;
+
+.header{
+        width: 150px;
+        
+        
+        .btn{
+                width: 100%;
+                display: block;
+                margin: auto;
+                
+        }
+        &__input{
+                outline: none;
+                width: 100%;
+                margin-top: 7px;
+        }
+        &__input:focus{
+                box-shadow: 0 0 7px 4px pink;
+                border-radius: 3px;
+        }
+}
+
+.menu{
+      position: fixed;
+      top:35%;
+      >ul{
+         li{
+                 cursor: pointer;
+                 padding: 10px;
+                 list-style: none;
+                 font-family: 'Encode Sans SC', sans-serif;
+                 font-family: 'Libre Baskerville', serif;
+                   }
+
+      }
+}
+.active{
+        color: orange;
+}
+
+}
