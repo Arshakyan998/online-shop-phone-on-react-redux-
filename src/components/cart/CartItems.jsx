@@ -16,7 +16,7 @@ function CartItems({name,image,id}) {
          }
 
          const deleteItem=()=>{
-                 if(window.confirm("вы действительно хотите удалить товар?")){
+                 if(window.confirm("Вы действительно хотите удалить товар?")){
              dispatch(deleteItemOfCart(id))
          }}
         return (

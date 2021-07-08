@@ -18,7 +18,7 @@ function Cart() {
         })
 
         const removeAllItems=()=>{
-                if(window.confirm("Вы действительно хотите очистить карзину ?")){
+                if(window.confirm("Вы действительно хотите очистить корзину ?")){
                 dispatch(clearCart())
                 }
         }
